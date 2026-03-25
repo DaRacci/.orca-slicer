@@ -1,0 +1,14 @@
+{
+    "from": "User",
+    "host_type": "crealityprint",
+    "inherits": "Creality K1C 0.4 nozzle",
+    "is_custom_defined": "0",
+    "layer_change_gcode": "SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
+    "machine_end_gcode": "END_PRINT\n; total layers count = [total_layer_count]",
+    "machine_start_gcode": "SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\nM140 S0\nM104 S0 \nSTART_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single]\n",
+    "name": "Creality K1C 0.4 nozzle - Copy",
+    "print_host": "192.168.2.69",
+    "printer_settings_id": "Creality K1C 0.4 nozzle - Copy",
+    "thumbnails": "32x32/PNG, 400x300/PNG",
+    "version": "2.3.0.2"
+}

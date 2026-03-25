@@ -1,0 +1,70 @@
+{
+    "activate_chamber_temp_control": [
+        "1"
+    ],
+    "additional_cooling_fan_speed": [
+        "0"
+    ],
+    "chamber_temperature": [
+        "30"
+    ],
+    "compatible_printers": [
+        "Creality K1C 0.4 nozzle"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_cooling_layer_time": [
+        "80"
+    ],
+    "fan_min_speed": [
+        "60"
+    ],
+    "filament_max_volumetric_speed": [
+        "30"
+    ],
+    "filament_settings_id": [
+        "Elegoo Rapid PLA+"
+    ],
+    "filament_start_gcode": [
+        "; Filament start gcode\n"
+    ],
+    "filament_vendor": [
+        "Elegoo"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Generic PLA @System",
+    "is_custom_defined": "0",
+    "name": "Elegoo Rapid PLA+",
+    "nozzle_temperature_range_high": [
+        "230"
+    ],
+    "nozzle_temperature_range_low": [
+        "200"
+    ],
+    "pressure_advance": [
+        "0.018"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "slow_down_min_speed": [
+        "20"
+    ],
+    "temperature_vitrification": [
+        "53"
+    ],
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "2.3.0.3"
+}

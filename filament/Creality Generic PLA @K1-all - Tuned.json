@@ -1,0 +1,28 @@
+{
+    "close_fan_the_first_x_layers": [
+        "10"
+    ],
+    "fan_min_speed": [
+        "0"
+    ],
+    "filament_max_volumetric_speed": [
+        "19"
+    ],
+    "filament_settings_id": [
+        "Creality Generic PLA @K1-all - Tuned"
+    ],
+    "filament_z_hop": [
+        "1"
+    ],
+    "filament_z_hop_types": [
+        "Auto Lift"
+    ],
+    "from": "User",
+    "inherits": "Creality Generic PLA @K1-all",
+    "is_custom_defined": "0",
+    "name": "Creality Generic PLA @K1-all - Tuned",
+    "slow_down_layer_time": [
+        "2"
+    ],
+    "version": "2.3.0.3"
+}

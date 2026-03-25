@@ -1,0 +1,11 @@
+{
+    "from": "User",
+    "inherits": "0.24mm Optimal @Creality K1C",
+    "initial_layer_line_width": "150%",
+    "initial_layer_print_height": "0.45",
+    "is_custom_defined": "0",
+    "name": "0.24mm Optimal @Creality K1C - Copy",
+    "print_settings_id": "0.24mm Optimal @Creality K1C - Copy",
+    "seam_slope_type": "external",
+    "version": "2.3.0.3"
+}

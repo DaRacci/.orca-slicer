@@ -1,0 +1,84 @@
+{
+    "bed_mesh_max": "220,220",
+    "bed_mesh_min": "0,0",
+    "change_filament_gcode": "G2 Z{z_after_toolchange + 0.4} I0.86 J0.86 P1 F10000 ; spiral lift a little from second lift\nG1 X42 Y180 F30000\nG1 Z{z_after_toolchange} F600\n",
+    "extruder_clearance_radius": "65",
+    "from": "User",
+    "host_type": "crealityprint",
+    "inherits": "Creality K1C 0.4 nozzle",
+    "is_custom_defined": "0",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num}",
+    "machine_load_filament_time": "119",
+    "machine_max_acceleration_extruding": [
+        "30000",
+        "20000"
+    ],
+    "machine_max_acceleration_x": [
+        "30000",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "30000",
+        "20000"
+    ],
+    "machine_max_jerk_e": [
+        "10",
+        "2.5"
+    ],
+    "machine_max_jerk_x": [
+        "20",
+        "12"
+    ],
+    "machine_max_jerk_y": [
+        "20",
+        "12"
+    ],
+    "machine_max_jerk_z": [
+        "5",
+        "2"
+    ],
+    "machine_max_speed_z": [
+        "30",
+        "20"
+    ],
+    "machine_start_gcode": "SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\nSET_PRINT_STATS_INFO CURRENT_LAYER=1\n\nSTART_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single]\nT[initial_no_support_extruder]; Load Filament & Flush\nM204 S2000; Set Acceleration Limit\nM104 S[nozzle_temperature_initial_layer]; Set Nozzle Temp to for Filament\n\n; Set Bucket Position i think\nG1 Z3 F600\nM83\nG92 E0\nG1 Z1 F600",
+    "machine_unload_filament_time": "60",
+    "manual_filament_change": "0",
+    "name": "Creality K1C 0.4 nozzle - CFS & Other",
+    "nozzle_volume": "183",
+    "print_host": "192.168.2.69",
+    "printable_area": [
+        "0x0",
+        "220x0",
+        "220x215",
+        "0x215"
+    ],
+    "printer_settings_id": "Creality K1C 0.4 nozzle - CFS & Other",
+    "purge_in_prime_tower": "0",
+    "retract_before_wipe": [
+        "70%"
+    ],
+    "retract_length_toolchange": [
+        "0"
+    ],
+    "retract_lift_below": [
+        "249"
+    ],
+    "retraction_length": [
+        "0.8"
+    ],
+    "retraction_minimum_travel": [
+        "1"
+    ],
+    "thumbnails": "96x96/PNG, 300x300/PNG",
+    "version": "2.3.0.2",
+    "wipe_distance": [
+        "1"
+    ],
+    "z_hop": [
+        "0.4"
+    ],
+    "z_hop_types": [
+        "Spiral Lift"
+    ]
+}

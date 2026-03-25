@@ -1,0 +1,13 @@
+{
+    "bed_custom_model": "/home/racci/Downloads/Creality_K1/Creality K1/Build_Plate.stl",
+    "bed_custom_texture": "/home/racci/Downloads/Creality_K1/Creality K1/Texture.png",
+    "from": "User",
+    "host_type": "crealityprint",
+    "inherits": "Creality K1C 0.6 nozzle",
+    "is_custom_defined": "0",
+    "name": "Creality K1C 0.6 nozzle - Copy",
+    "print_host": "192.168.2.69",
+    "printer_settings_id": "Creality K1C 0.6 nozzle - Copy",
+    "printer_structure": "corexy",
+    "version": "2.3.0.2"
+}
