@@ -15,20 +15,18 @@
         "0.01, 0.77, 1000\n0.015, 3.87, 1000\n0.025, 7.73, 1000\n0.03, 11.6, 1000\n0.032, 15.5, 1000\n0.025, 19.3, 1000\n0.025, 23.2, 1000\n0.01, 0.77, 2000\n0.03, 3.87, 2000\n0.02, 7.73, 2000\n0.02, 11.6, 2000\n0.02, 15.5, 2000\n0.02, 19.3, 2000\n0.025, 23.2, 2000\n0.01, 0.77, 4000\n0.015, 3.87, 4000\n0.017, 7.73, 4000\n0.027, 11.6, 4000\n0.025, 15.5, 4000\n0.02, 19.3, 4000\n0.02, 23.2, 4000\n0.01, 0.77, 6000\n0.015, 3.87, 6000\n0.022, 7.73, 6000\n0.025, 11.6, 6000\n0.024, 15.5, 6000\n0.022, 19.3, 6000\n0.02, 23.2, 6000\n0.01, 0.77, 8000\n0.01, 3.87, 8000\n0.012, 7.73, 8000\n0.016, 11.6, 8000\n0.012, 15.5, 8000\n0.015, 19.3, 8000\n0.015, 23.2, 8000"
     ],
     "adaptive_pressure_advance_overhangs": [
-        "0"
+        "1"
     ],
     "additional_cooling_fan_speed": [
         "0"
     ],
     "chamber_temperature": [
-        "50"
+        "60"
     ],
     "close_fan_the_first_x_layers": [
         "3"
     ],
-    "compatible_printers": [
-        "Creality K1C 0.4 nozzle"
-    ],
+    "compatible_printers": [],
     "compatible_printers_condition": "",
     "compatible_prints": [],
     "compatible_prints_condition": "",
@@ -48,7 +46,7 @@
         "0"
     ],
     "during_print_exhaust_fan_speed": [
-        "60"
+        "0"
     ],
     "enable_overhang_bridge_fan": [
         "1"
@@ -66,7 +64,7 @@
         "6"
     ],
     "fan_max_speed": [
-        "100"
+        "50"
     ],
     "fan_min_speed": [
         "10"
@@ -215,10 +213,10 @@
         "0"
     ],
     "hot_plate_temp": [
-        "90"
+        "95"
     ],
     "hot_plate_temp_initial_layer": [
-        "90"
+        "100"
     ],
     "idle_temperature": [
         "0"
@@ -257,13 +255,13 @@
         "0.022"
     ],
     "reduce_fan_stop_start_freq": [
-        "1"
+        "0"
     ],
     "required_nozzle_HRC": [
         "0"
     ],
     "slow_down_for_layer_cooling": [
-        "1"
+        "0"
     ],
     "slow_down_layer_time": [
         "3"
@@ -290,10 +288,10 @@
         "40"
     ],
     "textured_plate_temp": [
-        "90"
+        "95"
     ],
     "textured_plate_temp_initial_layer": [
-        "90"
+        "100"
     ],
     "version": "2.0.1.0"
 }
