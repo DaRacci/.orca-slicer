@@ -40,7 +40,7 @@
         "30",
         "20"
     ],
-    "machine_start_gcode": "SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\nSET_PRINT_STATS_INFO CURRENT_LAYER=1\n\nSTART_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single]\nT[initial_no_support_extruder]; Load Filament & Flush\nM104 S[nozzle_temperature_initial_layer]; Set Nozzle Temp to for Filament\n\n; Set Bucket Position i think\nG1 Z3 F600\nM83\nG92 E0\nG1 Z1 F600",
+    "machine_start_gcode": "SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\nSET_PRINT_STATS_INFO CURRENT_LAYER=1\n\nSTART_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single]\nT[initial_no_support_extruder]; Load Filament & Flush",
     "machine_unload_filament_time": "60",
     "manual_filament_change": "0",
     "name": "Creality K1C 0.4 nozzle - CFS & Other",
