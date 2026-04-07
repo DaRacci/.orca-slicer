@@ -1,9 +1,6 @@
 {
-    "activate_chamber_temp_control": [
-        "1"
-    ],
     "additional_cooling_fan_speed": [
-        "0"
+        "50"
     ],
     "chamber_temperature": [
         "30"
@@ -19,6 +16,12 @@
     ],
     "fan_min_speed": [
         "60"
+    ],
+    "filament_cost": [
+        "30"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
     ],
     "filament_max_volumetric_speed": [
         "30"
@@ -40,7 +43,6 @@
         "60"
     ],
     "inherits": "Generic PLA @System",
-    "is_custom_defined": "0",
     "name": "Elegoo Rapid PLA+",
     "nozzle_temperature_range_high": [
         "230"
