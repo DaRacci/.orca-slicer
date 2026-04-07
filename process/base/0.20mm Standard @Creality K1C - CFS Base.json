@@ -4,8 +4,6 @@
     "bridge_flow": "0.9",
     "brim_type": "outer_only",
     "brim_width": "4",
-    "default_acceleration": "0",
-    "default_jerk": "0",
     "enable_extra_bridge_layer": "external_bridge_only",
     "extrusion_rate_smoothing_external_perimeter_only": "1",
     "filename_format": "{input_filename_base}_{filament_type[initial_tool]}.gcode",
