@@ -5,6 +5,12 @@
     "compatible_printers": [
         "Creality K1C 0.4 nozzle"
     ],
+    "complete_print_exhaust_fan_speed": [
+        "60"
+    ],
+    "during_print_exhaust_fan_speed": [
+        "60"
+    ],
     "enable_pressure_advance": [
         "1"
     ],
@@ -51,7 +57,7 @@
         "0.018"
     ],
     "slow_down_layer_time": [
-        "6"
+        "3"
     ],
     "slow_down_min_speed": [
         "20"
