@@ -67,7 +67,6 @@
     ],
     "printer_settings_id": "Creality K1C 0.4 nozzle - CFS & Other",
     "purge_in_prime_tower": "0",
-    "resonance_avoidance": "1",
     "retract_before_wipe": [
         "70%"
     ],
