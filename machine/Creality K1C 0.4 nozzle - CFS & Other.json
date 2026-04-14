@@ -40,7 +40,7 @@
         "30",
         "20"
     ],
-    "machine_start_gcode": "SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\nSET_PRINT_STATS_INFO CURRENT_LAYER=1\n\nSTART_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single]\nT[initial_no_support_extruder]; Load Filament & Flush",
+    "machine_start_gcode": "SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\nSET_PRINT_STATS_INFO CURRENT_LAYER=1\n\nSTART_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single]\nT[initial_no_support_extruder]; Load Filament & Flush\n\n; --- Automated Chamber Temp Control ---\n{if filament_type[0] == \"ASA\"}\nM141 S60;\n{elsif filament_type[0] == \"PLA\"}\nM141 S35;\n{elsif filament_type[0] == \"PETG\"}\nM141 S45;\n{else}\nM141 S35;\n{endif}",
     "machine_unload_filament_time": "60",
     "manual_filament_change": "0",
     "max_resonance_avoidance_speed": "75",
