@@ -20,6 +20,12 @@
     "fan_min_speed": [
         "0"
     ],
+    "filament_cost": [
+        "30"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
     "filament_settings_id": [
         "Creality Generic PLA High Speed @K1-all - Copy"
     ],
@@ -31,7 +37,6 @@
     ],
     "from": "User",
     "inherits": "Creality Generic PLA High Speed @K1-all",
-    "is_custom_defined": "0",
     "name": "Creality Generic PLA High Speed @K1-all - Copy",
     "nozzle_temperature": [
         "200"
