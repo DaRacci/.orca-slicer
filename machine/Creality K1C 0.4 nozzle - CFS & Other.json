@@ -59,6 +59,7 @@
         "220x215",
         "0x215"
     ],
+    "printer_agent": "moonraker",
     "printer_extruder_id": [
         "1"
     ],
