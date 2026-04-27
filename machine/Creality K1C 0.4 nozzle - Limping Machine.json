@@ -5,9 +5,8 @@
     "extruder_clearance_radius": "65",
     "from": "User",
     "host_type": "crealityprint",
-    "inherits": "Creality K1C 0.4 nozzle",
+    "inherits": "Creality K1C 0.4 nozzle - CFS & Other",
     "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num}",
-    "machine_load_filament_time": "119",
     "machine_max_acceleration_e": [
         "3000",
         "5000"
