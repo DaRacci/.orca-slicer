@@ -6,7 +6,7 @@
         "1"
     ],
     "adaptive_pressure_advance": [
-        "1"
+        "0"
     ],
     "adaptive_pressure_advance_bridges": [
         "0"
@@ -302,7 +302,7 @@
         "0.4157"
     ],
     "pressure_advance": [
-        "0.022"
+        "0.012"
     ],
     "reduce_fan_stop_start_freq": [
         "0"
