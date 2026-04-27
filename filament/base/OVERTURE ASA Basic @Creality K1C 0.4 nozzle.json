@@ -27,7 +27,9 @@
         "3"
     ],
     "compatible_printers": [
-        "Creality K1C 0.4 nozzle"
+        "Creality K1C 0.4 nozzle",
+        "Creality K1C 0.4 nozzle - CFS & Other",
+        "Creality K1C 0.4 nozzle - Limping Machine"
     ],
     "compatible_printers_condition": "",
     "compatible_prints": [],
