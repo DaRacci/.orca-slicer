@@ -1,9 +1,9 @@
 {
-    "compatible_printers": [
-        "Creality K1C 0.4 nozzle"
-    ],
     "default_filament_colour": [
         "#62A0EA"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
     ],
     "filament_max_volumetric_speed": [
         "30"
@@ -22,7 +22,6 @@
     ],
     "from": "User",
     "inherits": "Generic PLA Silk @System",
-    "is_custom_defined": "0",
     "name": "CC3D PLA Silk",
     "nozzle_temperature_range_high": [
         "220"
