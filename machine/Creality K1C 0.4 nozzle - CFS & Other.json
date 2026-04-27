@@ -2,6 +2,8 @@
     "bed_mesh_max": "220,220",
     "bed_mesh_min": "0,0",
     "change_filament_gcode": "G2 Z{z_after_toolchange + 0.4} I0.86 J0.86 P1 F10000 ; spiral lift a little from second lift\nG1 X42 Y180 F30000\nG1 Z{z_after_toolchange} F600\n",
+    "cooling_tube_retraction": "95",
+    "extra_loading_move": "0",
     "extruder_clearance_radius": "65",
     "from": "User",
     "host_type": "crealityprint",
@@ -52,6 +54,7 @@
     "nozzle_volume": [
         "202"
     ],
+    "parking_pos_retraction": "100",
     "print_host": "192.168.2.69",
     "printable_area": [
         "0x0",
