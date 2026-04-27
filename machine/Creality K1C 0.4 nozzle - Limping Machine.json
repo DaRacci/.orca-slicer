@@ -1,7 +1,4 @@
 {
-    "bed_mesh_max": "220,220",
-    "bed_mesh_min": "0,0",
-    "extruder_clearance_radius": "65",
     "from": "User",
     "host_type": "crealityprint",
     "inherits": "Creality K1C 0.4 nozzle - CFS & Other",
@@ -53,49 +50,10 @@
         "300",
         "800"
     ],
-    "machine_unload_filament_time": "60",
-    "manual_filament_change": "0",
     "name": "Creality K1C 0.4 nozzle - Limping Machine",
     "print_host": "192.168.2.69",
-    "printable_area": [
-        "0x0",
-        "220x0",
-        "220x215",
-        "0x215"
-    ],
     "printer_agent": "moonraker",
-    "printer_extruder_id": [
-        "1"
-    ],
-    "printer_extruder_variant": [
-        "Direct Drive Standard"
-    ],
     "printer_settings_id": "Creality K1C 0.4 nozzle - Limping Machine",
-    "purge_in_prime_tower": "0",
-    "retract_before_wipe": [
-        "70%"
-    ],
-    "retract_length_toolchange": [
-        "0"
-    ],
-    "retract_lift_below": [
-        "249"
-    ],
-    "retraction_length": [
-        "0.8"
-    ],
-    "retraction_minimum_travel": [
-        "1"
-    ],
     "thumbnails": "96x96/PNG, 300x300/PNG",
-    "version": "2.3.0.2",
-    "wipe_distance": [
-        "1"
-    ],
-    "z_hop": [
-        "0.4"
-    ],
-    "z_hop_types": [
-        "Spiral Lift"
-    ]
+    "version": "2.3.0.2"
 }
